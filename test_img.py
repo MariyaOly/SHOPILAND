@@ -3,7 +3,7 @@ from selenium import webdriver
 
 @pytest.fixture
 def browser():
-    # Инициализация браузера (предполагается, что у вас установлен Chrome WebDriver)
+    # Инициализация браузера 
     driver = webdriver.Chrome()
     yield driver
     # Закрытие браузера после завершения теста
